@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Hover Dictionary",
+  "version": "1.1",
+  "description": "Hover over a word or select text to see its meaning and an example sentence.",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["https://api.dictionaryapi.dev/*"],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
