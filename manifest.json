@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Hover Dictionary",
+  "name": "Quick Define",
   "version": "1.1",
   "description": "Hover over a word or select text to see its meaning and an example sentence.",
   "permissions": ["storage", "activeTab", "scripting"],
